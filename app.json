@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ImageShare",
-    "slug": "ImageShare",
+    "name": "ImageSharing",
+    "slug": "ImageSharing",
     "platforms": [
       "ios",
       "android",
@@ -22,7 +22,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.vladimirpetrov.imagesharing",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.vladimirpetrov.imagesharing",
+      "versionCode": 1
     }
   }
 }
